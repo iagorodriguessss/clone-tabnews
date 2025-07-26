@@ -1,54 +1,24 @@
 {
-  // Nome do projeto
   "name": "clone-tabnews",
-
-  // Versão atual do projeto
   "version": "1.0.0",
-
-  // Descrição opcional (está vazia aqui)
   "description": "",
-
-  // Arquivo principal do projeto (não usado no Next.js, mas pode ser útil em outros contextos)
   "main": "index.js",
-
-  // Scripts que podem ser executados com `npm run nome-do-script`
   "scripts": {
-    // Inicia o servidor de desenvolvimento do Next.js
     "dev": "next dev",
-
-    // Verifica se os arquivos estão formatados corretamente com o Prettier
     "lint:check": "prettier --check .",
-
-    // Corrige automaticamente a formatação dos arquivos usando o Prettier
     "lint:fix": "prettier --write .",
-
-    // Executa os testes com o Jest uma vez
     "test": "jest",
-
-    // Executa os testes com o Jest e fica observando mudanças nos arquivos
     "test:watch": "jest --watch"
   },
-
-  // Autor do projeto (ainda não preenchido)
   "author": "",
-
-  // Licença do projeto (MIT é uma licença de código aberto permissiva)
   "license": "MIT",
-
-  // Dependências que são necessárias para rodar o projeto em produção
   "dependencies": {
-    // Framework React para construir interfaces de usuário
-    "next": "^13.1.6",         // Framework que usa React para renderização SSR/CSR
-    "react": "^18.2.0",        // Biblioteca principal do React
-    "react-dom": "^18.2.0"     // Responsável por conectar o React ao DOM
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-
-  // Dependências necessárias apenas durante o desenvolvimento
   "devDependencies": {
-    // Jest é uma ferramenta para testes automatizados em JavaScript
     "jest": "^29.6.2",
-
-    // Prettier é um formatador de código que ajuda a manter estilo consistente
     "prettier": "^3.6.2"
   }
 }
